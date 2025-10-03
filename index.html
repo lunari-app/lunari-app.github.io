@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="color-scheme" content="light" />
+  <title>Lunari — Privacy‑First Period Tracking</title>
+  <meta name="description" content="Lunari is a free, privacy-first period tracking app. Your data stays on your device. No sign-ups. No ads." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#">
+        <span class="brand-badge" aria-hidden="true">
+          <img src="assets/images/lunari-logo.svg" alt="Lunari logo" width="40" height="40" />
+        </span>
+        <span class="brand-title">Lunari</span>
+      </a>
+      <nav class="header-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#benefits">Why Lunari</a>
+        <a href="#how-predictions-work">How predictions work</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Your period, your data.</h1>
+        <p class="subhead">Track your menstrual cycle without giving up your privacy.</p>
+          <div class="bullet-grid" role="list">
+            <div class="bullet" role="listitem"><img class="tick" src="assets/icons/check.svg" alt="" aria-hidden="true" /><span>No account required</span></div>
+            <div class="bullet" role="listitem"><img class="tick" src="assets/icons/check.svg" alt="" aria-hidden="true" /><span>No third‑party trackers</span></div>
+            <div class="bullet" role="listitem"><img class="tick" src="assets/icons/check.svg" alt="" aria-hidden="true" /><span>All data stays on your device</span></div>
+            <div class="bullet" role="listitem"><img class="tick" src="assets/icons/check.svg" alt="" aria-hidden="true" /><span>100% offline and no ads</span></div>
+          </div>
+        <div class="cta-row">
+          <a class="cta google" href="#" aria-label="Get Lunari on Google Play">
+            <img src="assets/images/google-play-badge.svg" alt="Get it on Google Play" style="height: 54px;" />
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <img src="assets/images/hero.png" alt="Lunari app homescreen" style="width: 100%; height: auto; border-radius: 36px; box-shadow: 0 30px 70px rgba(43, 33, 67, 0.18);" />
+      </div>
+    </section>
+
+    <section id="features" style="margin-top: 32px;" aria-labelledby="features-title">
+      <div class="section-head">
+        <h2 id="features-title">Stay in tune with your cycle, privately</h2>
+      </div>
+      <div class="feature-showcase">
+        <div class="feature-visual">
+          <img id="feature-image" src="assets/images/tracking.png" alt="Feature preview" />
+          <div class="feature-pagination" id="feature-pagination"></div>
+        </div>
+        <div class="feature-list">
+          <article class="feature-item active" data-image="assets/images/tracking.png">
+            <div class="icon" aria-hidden="true">
+              <img src="assets/icons/calendar.svg" alt="" width="24" height="24" />
+            </div>
+            <div>
+              <h3>Track your cycle</h3>
+              <p>Track your cycle, predict your periods, and plan your activities around them.</p>
+            </div>
+          </article>
+          <article class="feature-item" data-image="assets/images/dark-mode.png">
+            <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffdceb,#ffc2d9);">
+              <img src="assets/icons/mood.svg" alt="" width="24" height="24" />
+            </div>
+            <div>
+              <h3>Symptoms tracking</h3>
+              <p>Track your symptoms, mood, flow intensity, and other health markers to get a complete picture of your menstrual health.</p>
+            </div>
+          </article>
+          <article class="feature-item" data-image="assets/images/stats.png">
+            <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#e8f1ff,#cfe6ff);">
+              <img src="assets/icons/stats.svg" alt="" width="24" height="24" />
+            </div>
+            <div>
+              <h3>Cycle statistics</h3>
+              <p>Get a full picture of your cycle, and view your cycle history.</p>
+            </div>
+          </article>
+          <article class="feature-item" data-image="assets/images/app-lock.png">
+            <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
+              <img src="assets/icons/lock.svg" alt="" width="24" height="24" />
+            </div>
+            <div>
+              <h3>PIN lock protection</h3>
+              <p>Add an extra layer of privacy with a 4-digit PIN lock or Face ID/Touch ID.</p>
+            </div>
+          </article>
+          <article class="feature-item" data-image="assets/images/data-delete.png">
+            <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#dff6ff,#bde6ff);">
+              <img src="assets/icons/delete.svg" alt="" width="24" height="24" />
+            </div>
+            <div>
+              <h3>Data deletion</h3>
+              <p>Delete your data anytime, instantly.</p>
+            </div>
+          </article>
+          <article class="feature-item" data-image="assets/images/dark-mode.png">
+            <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffe8f1,#ffd3e6);">
+              <img src="assets/icons/theme.svg" alt="" width="24" height="24" />
+            </div>
+            <div>
+              <h3>Dark mode</h3>
+              <p>Reduce eye strain and save battery with system‑aware dark mode.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" aria-labelledby="benefits-title">
+      <div class="section-head">
+        <h2 id="benefits-title">Why choose Lunari?</h2>
+      </div>
+      <div class="benefits">
+        <div class="benefit">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#dff6ff,#bde6ff);">
+            <img src="assets/icons/security.svg" alt="" width="24" height="24" />
+          </div>
+          <h3>Privacy‑first by design</h3>
+          <p>Built from the ground up to store your data locally on your device.</p>
+        </div>
+
+        <div class="benefit">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffe8f1,#ffd3e6);">
+            <img src="assets/icons/phone.svg" alt="" width="24" height="24" />
+          </div>
+          <h3>On-device predictions</h3>
+          <p>Predictions are computed on‑device from your cycle history, no cloud needed.</p>
+        </div>
+        <div class="benefit">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
+            <img src="assets/icons/code.svg" alt="" width="24" height="24" />
+          </div>
+          <h3>Open source</h3>
+          <p>Lunari is open source, you can see the code on <a href="https://github.com/maribelferreira/Lunari/" class="contact-link" target="_blank">GitHub</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-predictions-work" aria-labelledby="how-it-works-title">
+      <div class="section-head">
+        <h2 id="how-it-works-title">How predictions work</h2>
+      </div>
+      <div class="how-it-works-layout">
+        <div class="how-it-works-visual">
+          <img src="assets/images/predictions.svg" alt="Lunari prediction visualization" />
+        </div>
+        <div class="how-it-works-content">
+          <div class="prediction-details">
+            <div class="prediction-point">
+              <div>
+                <h3>Next period prediction</h3>
+                <p>Lunari predicts your next period by adding your average cycle length to the start date of your last period.</p>
+              </div>
+            </div>
+            <div class="prediction-point">
+              <div>
+                <h3>Cycle average length calculation</h3>
+                <p style="margin-bottom: 10px;">Lunari calculates your average cycle length using a weighted average of your last 6 cycles, a commonly used approach in cycle tracking.</p>
+                <p>Recent cycles have more influence on predictions than older ones. For example, most recent cycle: 100%, second most recent: 80%, third most recent: 60%, and so on.</p>
+              </div>
+            </div>
+            <div class="prediction-point">
+              <div>
+                <h3>More data, better accuracy</h3>
+                <p>Track at least 3 cycles for basic predictions. After 6 cycles, predictions are more accurate.</p>
+              </div>
+            </div>
+          </div>
+          <p class="disclaimer"><strong>IMPORTANT:</strong> Predictions are estimates based on your tracking history, not medical advice. See a healthcare provider if you have concerns.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>© <span id="year"></span> Lunari. All rights reserved.</div>
+      <div class="footer-links" role="navigation" aria-label="Footer">
+        <a href="privacy.html" aria-label="Privacy Policy">Privacy</a>
+        <a href="#" aria-label="Terms of Service">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const featureItems = document.querySelectorAll('.feature-item');
+    const featureImage = document.getElementById('feature-image');
+    const pagination = document.getElementById('feature-pagination');
+
+    featureItems.forEach((item, index) => {
+      const dot = document.createElement('button');
+      dot.className = 'pagination-dot';
+      dot.setAttribute('aria-label', `Go to feature ${index + 1}`);
+      if (index === 0) dot.classList.add('active');
+      
+      dot.addEventListener('click', () => {
+        setActiveFeature(index);
+      });
+      
+      pagination.appendChild(dot);
+    });
+
+    const dots = pagination.querySelectorAll('.pagination-dot');
+
+    function setActiveFeature(index) {
+      featureItems.forEach(i => i.classList.remove('active'));
+      dots.forEach(d => d.classList.remove('active'));
+      
+      featureItems[index].classList.add('active');
+      dots[index].classList.add('active');
+      
+      const newImage = featureItems[index].getAttribute('data-image');
+      featureImage.src = newImage;
+    }
+
+    featureItems.forEach((item, index) => {
+      item.addEventListener('click', () => {
+        setActiveFeature(index);
+      });
+    });
+  </script>
+</body>
+</html>

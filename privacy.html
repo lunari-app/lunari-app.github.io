@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="color-scheme" content="light" />
+  <title>Privacy Policy — Lunari</title>
+  <meta name="description" content="Lunari's privacy policy. Your data stays on your device. No tracking, no ads, no data collection." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-badge" aria-hidden="true">
+          <img src="assets/lunari-logo.svg" alt="Lunari logo" width="40" height="40" />
+        </span>
+        <span class="brand-title">Lunari</span>
+      </a>
+      <nav class="header-links" aria-label="Primary">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#benefits">Why Lunari</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="privacy-hero" aria-labelledby="privacy-title">
+      <div class="section-head">
+        <h1 id="privacy-title">Privacy Policy</h1>
+        <p class="last-updated">Last updated: <span id="current-date"></span></p>
+      </div>
+    </section>
+
+    <section class="privacy-content">
+      <div class="privacy-section">
+        <h2>Introduction</h2>
+        <p>This Privacy Policy sets out how the app Lunari uses and protects your personal data that you generate and store within the app.</p>
+      </div>
+
+      <div class="privacy-section">
+        <h2>Data Use</h2>
+        <p>Lunari respects and celebrates your privacy. There is no collection of usage data or personal information, no ads, no spyware. Lunari can store data related to your menstrual health locally on your phone, and this includes:</p>
+        <ul class="privacy-list">
+          <li>Period start and end dates</li>
+          <li>Cycle length and period duration</li>
+          <li>Symptoms and mood tracking data</li>
+          <li>Notes and personal observations</li>
+          <li>App preferences and settings</li>
+        </ul>
+        <p>This data is used solely to provide you with period predictions, cycle insights, and personalized tracking features. We do not share, sell, or transmit your personal health data to any third parties.</p>
+        <p>If you wish to delete all your app data, you can do so by going to the settings menu and selecting "Delete data". This can also be done by uninstalling the app.</p>
+      </div>
+
+      <div class="privacy-section">
+        <h2>Permissions</h2>
+        <p>Lunari may request the following permissions:</p>
+        <ul class="privacy-list">
+          <li><strong>Reminders:</strong> To send you period reminders and cycle predictions.</li>
+          <li><strong>Biometric authentication:</strong> To secure your app with fingerprint or face recognition (optional).</li>
+        </ul>
+        <p>If you don't want to use any of these permissions, you can revoke them at any time through your device settings.</p>
+      </div>
+
+      <div class="privacy-section">
+        <h2>Transparency</h2>
+        <p>We believe in complete transparency about how your data is handled:</p>
+        <ul class="privacy-list">
+          <li>All your data is stored locally on your device</li>
+          <li>No data is transmitted to external servers</li>
+          <li>You can delete all your data at any time</li>
+          <li>We do not use analytics or tracking services</li>
+          <li>No third-party advertising or data collection</li>
+        </ul>
+        <p>You have full control over your data. You can delete all tracking data through the settings menu, and the app will continue to work normally without any stored information.</p>
+      </div>
+
+      <div class="privacy-section">
+        <h2>Contact</h2>
+        <p>If you have any questions about this privacy policy or how we handle your data, please contact us at <a href="mailto:lunari.appmail@gmail.com" class="contact-link">lunari.appmail@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>© <span id="year"></span> Lunari. All rights reserved.</div>
+      <div class="footer-links" role="navigation" aria-label="Footer">
+        <a href="privacy.html" aria-label="Privacy Policy">Privacy</a>
+        <a href="#" aria-label="Terms of Service">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+    });
+  </script>
+</body>
+</html>
